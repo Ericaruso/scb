@@ -19,3 +19,26 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1, h2 {
+  font-family: 'Merienda', sans-serif;
+}
+
+p {
+  font-family: 'Edu AU VIC WA NT Pre', sans-serif;
+}
+
+/* Caricamento dei font */
+@font-face {
+  font-family: 'Edu AU VIC WA NT Pre';
+  src: url('/fonts/EduAUVICWANTPre-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Merienda';
+  src: url('/fonts/Merienda-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
